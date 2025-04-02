@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--Internal-->
+    <style>
+        h2 {
+            color: white;
+            font-size: 30px;
+            background-color: red;
+        }
+    </style>
+    <!--External: adiciona um arquivo em /css como style.css
+    e adiciona o link passando o caminho-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/lista.css">
+
+</head>
+<body>
+    <!--Adicionando CSS:
+    Possui 3 formas: 
+    Inline: quando o estilo é adicionado por elemento, dentro do html.
+    Internal: quando o estilo é adicionado no head do html.
+    External: quando é criado um arquivo externo e referenciado dentro do html.-->
+
+    <!--Inline-->
+    <h1 style="color: brown; background-color: antiquewhite;">Mudando a cor com inline</h1>
+    <h1 style="color: pink; background-color: green;">Outro seletor</h1> <!--fica preto e não segue a sintaxe uma regra para todos os elementos-->
+
+    <!--Internal-->
+    <h2>Mudando a cor e tamanho do H2 com Internal</h2>
+    <h2>Outro h2 com o mesmo padrão</h2>
+    <!--reaproveita a regra para todos os elementos-->
+
+    <!--External-->
+    <p>Um paragrafo para ser estilizado com o External CSS</p>
+    <p>outro paragrafo</p>
+    <h2>mais um</h2>
+
+    <!--Multiplo CSS-->
+    <ul>
+        <li>Banana</li>
+        <li>Abacaxi</li>
+        <li>Uva</li>
+        <li>Limão</li>
+    </ul>
+
+    <!--Classes: dá um nome para um conjunto, formando um grupo de elementos
+    onde eles vão compartilhar as mesmas regras no css-->
+    <div class="classe1">Div1</div>
+    <div class="classe1">Div2</div>
+
+    <br/>
+    
+    <!--Id: Cria um identificador único para cada elemento-->
+    <div id="idUm">Div1</div>
+    <div id="idDois">Div2</div>
+    <div id="idTres">Div3</div>
+    <div id="idQuatro">Div4</div>
+    
+    <h5 id="hex">Um título H5 para testar a cor hexadecimal</h5>
+    <p id="rgb">Um paragrafo para testar a cor RGB</p>
+    <p id="rgba">Um paragrafo para testar a cor RGBa</p>
+</body>
+</html>

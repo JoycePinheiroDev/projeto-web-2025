@@ -1,0 +1,19 @@
+.obj1 {
+    border: solid 2px green;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.obj2 {
+    border: dotted 3px blue;
+    margin: 50px;
+    padding: 30px;
+}
+
+.obj3 {
+    border: dashed 4px palevioletred;
+    margin: 20px 10px 5px 30px;
+    padding: 20px 10px 5px 30px;
+
+}
